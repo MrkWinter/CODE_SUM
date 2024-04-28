@@ -1,0 +1,40 @@
+# 忽略编译生成的目标文件
+*.o
+*.out
+*.exe
+
+# 忽略CMake构建目录
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+cmake_install.cmake
+Makefile
+
+# 忽略编译生成的动态链接库
+*.so
+*.dll
+*.dylib
+
+# 忽略Visual Studio项目和解决方案文件
+*.sln
+*.vcxproj
+*.vcproj
+*.pdb
+*.user
+*.aps
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.tlog
+*.dsw
+*.appx
+*.appxrecipe
+*.vcxitems
