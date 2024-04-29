@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    width: 100px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+li {
+
+    position: relative;
+    padding: auto;
+    list-style-type: none;
+    background-color: aqua;
+    width: 100px;
+    text-align: center;
+}

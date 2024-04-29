@@ -1,0 +1,26 @@
+p{
+}
+.one{
+    font-family:'宋体';
+    text-indent:2em;
+}
+.two{
+    font-family: 'Times New Roman', Times, serif;
+    text-indent:2em;
+}
+.three{
+    color:chocolate;
+    text-align: center;
+}
+
+
+.center {
+    text-align: center;
+}
+h3,h6{
+    text-align: center;
+}
+hr{
+    border-width: 4;
+}
+

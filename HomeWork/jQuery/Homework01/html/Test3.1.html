@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Event Binding Example</title>
+    <script src="../../Jquery/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+    <button id="addBtn">添加p标记</button>
+    <div id="targetDiv"></div>
+    <script>
+        $(document).ready(function () {
+            var i= 1;
+            $('#addBtn').click(function () {
+                var $pTag = $('<p>这是第' + i + '个p标记</p>');
+                $('#targetDiv').append($pTag);
+                i+=1;
+            });
+        });
+    </script>
+</body>
+
+</html>

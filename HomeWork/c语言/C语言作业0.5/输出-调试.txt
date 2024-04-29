@@ -1,0 +1,14 @@
+﻿“C语言作业3.exe”(Win32): 已加载“E:\vs项目\作业\C语言作业3\Debug\C语言作业3.exe”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\ntdll.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\kernel32.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\KernelBase.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\vcruntime140d.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\ucrtbased.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-localization-l1-2-0.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-processthreads-l1-1-1.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-file-l1-2-0.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-timezone-l1-1-0.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-file-l2-1-0.dll”。已加载符号。
+“C语言作业3.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-synch-l1-2-0.dll”。已加载符号。
+线程 0x26b0 已退出，返回值为 0 (0x0)。
+程序“[11024] C语言作业3.exe”已退出，返回值为 0 (0x0)。

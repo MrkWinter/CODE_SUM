@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/Test1.css">
+    <script src="../../Jquery/jquery-1.12.4.min.js">
+    </script>
+</head>
+
+<body>
+    <ul class="menu-list">
+        <li>
+            <p class="menu-head">目标管理</p>
+            <div class="menu-body">
+                <a href="#">主题空间</a>
+                <a href="#">项目任务</a>
+                <a href="#">工作计划</a>
+                <a href="#">日程事件</a>
+                <a href="#">时间视图</a>
+            </div>
+        </li>
+        <li>
+            <p class="menu-head">会议管理</p>
+            <div class="menu-body">
+                <a href="#">主题空间</a>
+                <a href="#">会议安排</a>
+                <a href="#">待开会议</a>
+                <a href="#">已开会议</a>
+                <a href="#">会议资源</a>
+            </div>
+        </li>
+        <li>
+            <p class="menu-head">知识社区</p>
+            <div class="menu-body">
+                <a href="#">我的收藏</a>
+                <a href="#">知识广场</a>
+                <a href="#">文档中心</a>
+                <a href="#">我的博客</a>
+                <a href="#">文档库管理</a>
+            </div>
+        </li>
+        <li>
+            <p class="menu-head">我的工具</p>
+            <div class="menu-body">
+                <a href="#">综合查询</a>
+                <a href="#">通讯录</a>
+                <a href="#">便签</a>
+                <a href="#">计算器</a>
+                <a href="#">万年历</a>
+                <a href="#">常用链接</a>
+            </div>
+        </li>
+    </ul>
+    <script>
+        $(".menu-head+div").hide();
+        //点击当前标题 打开当前 关闭其他
+        $(".menu-head").click(function () {
+            var curHead = $(this);
+            //打开当前 关闭其他
+            if (curHead.next("div").is(":hidden")) {
+                curHead.css("backgroundImage", "url(../img/pro_down.png)");
+                curHead.next("div").show();
+                curParent = curHead.parent("li");
+                otherParents = curParent.siblings("li");
+                otherParents.children("p").css("backgroundImage", "url(../img/pro_left.png)")
+                otherParents.children("div").hide();
+            } else
+            //关闭当前
+            {
+                curHead.css("backgroundImage", "url(../img/pro_left.png)");
+                curHead.next("div").hide();
+            }
+        })
+    </script>
+</body>
+
+</html>

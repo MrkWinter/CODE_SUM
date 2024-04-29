@@ -1,0 +1,169 @@
+body {
+    background-color: #f5f5f5
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.box1 {
+    width: 1350px;
+    height: 400px;
+    background-color:#f5f5f5;
+    margin:0 auto;
+}
+.box1_2 {
+    width: 1350px;
+    height: 50px;
+    background-color:#000099;
+    margin:0 auto;
+}
+.box2 {
+    width: 1350px;
+    height: 650px;
+    background-color: #f5f5f5;
+    margin:0 auto;
+}
+.box2_1 {
+    width: 1350px;
+    height: 100px;
+    background-color:#f5f5f5;
+    margin:0 auto;
+}
+.box2_2 {
+    width: 1350px;
+    height: 355px;
+    background-color: #f5f5f5;
+    margin:0 auto;
+}
+.box2_21 {
+    width: 334px;
+    height: 355px;
+    background-color: #f5f5f5;
+    display: inline-block;
+}
+.box2_3 {
+    width: 1350px;
+    height: 195px;
+    background-color: #f5f5f5;
+    margin:0 auto;
+}
+.box2_31 {
+    width: 446px;
+    height: 195px;
+    display: inline-block;
+    background-color:#f5f5f5;
+}
+.info {
+    color: #ffffff;
+    height: 50px;
+    padding: 0px 33px;
+    margin-top: 18px;
+    display: inline-block;
+}
+.info2 {
+    padding-top: 50px;
+    padding-left: 530px;
+    color: #c1a677;
+    font-family: "方正小标宋简体";
+}
+.info3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    font-family: "宋体";
+}
+.info4 {
+    color: #000099;
+    width: 400px;
+    height: 30px;
+}
+.pinfo {
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #929292;
+    font-weight: bold;
+}
+.size {
+    width: 100%;
+    width: 1350px;
+    height: 350px;
+
+}
+.size2 {
+   
+    padding-left: 10px;
+    width: 312px;
+    height: 165px;
+}
+.systel {
+    color: #999999;
+    width: 450px;
+}
+
+.last {
+    width: 1350px;
+    height: 50px;
+}
+
+
+
+.menu {
+    width: 1350px;
+    height: 50px;
+    border: 1px black solid;
+    background-color:#000099;
+    margin: 0 auto;
+}
+li {
+
+    list-style-type: none;
+    width: 135px;
+}
+.menu>li {
+    float: left;
+}
+.menu li a {
+
+    display:block;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    color:#FFF;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.menu li ul li {
+    background-color: #00f;
+    height: 40px;
+    visibility: hidden;
+    
+    
+}
+.menu ul li a {
+    font-weight: normal;
+    font-size:  14px;
+}
+menu>li:hover>a {
+    background-color: #006;
+    color:red
+
+}
+.menu>li:hover ul li {
+   
+    visibility: visible;
+}
+.menu ul li a:hover {
+    color: #df4136;
+    background-color: #2a40bd;
+}
+#box {
+    position: absolute;
+    width: 1350px;
+    height: 350px;
+}
+#box image {
+    width: 100%;
+}

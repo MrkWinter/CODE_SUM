@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Test1.css">
+    <script src="../../Jquery/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+    <button id="getDataBtn">读取数据</button>
+    <table id="dataTable">
+        <form>
+            书名 <input type="text" id="bookName">
+            页数 <input type="text" id="pages">
+            售价 <input type="text" id="price">
+        </form>
+        <thead>
+            <tr>
+                <td>书名</td>
+                <td>页数</td>
+                <td>售价</td>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+    </table>
+    <script>
+        var data = [];
+        $("#getDataBtn").click(function () {
+            var bookName = $("#bookName").val();
+            var pages = $("#pages").val();
+            var price = $("#price").val();
+            if (bookName && pages && price) {
+                var newData = {
+                    book: bookName,
+                    pages: pages,
+                    price: price
+                };
+                data.push(newData);
+            }
+
+            // 遍历数据源，将数据动态添加到表格中
+            $.each(data, function (index, item) {
+                var row = "<tr><td>" + item.book + "</td><td>" + item.pages + "</td><td>" + item.price +
+                    "</td></tr>";
+                $("#dataTable tbody").append(row);
+            });
+            data = [];
+            $("#bookName, #pages, #price").val("");
+        });
+    </script>
+</body>
+
+</html>
