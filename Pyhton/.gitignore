@@ -1,0 +1,15 @@
+# 忽略Python字节码文件
+__pycache__/
+
+# 忽略Python环境相关文件
+venv/
+env/
+*.env
+
+# 忽略Jupyter Notebook生成的文件
+.ipynb_checkpoints/
+
+# 忽略Python包安装目录
+*.egg-info/
+dist/
+build/
