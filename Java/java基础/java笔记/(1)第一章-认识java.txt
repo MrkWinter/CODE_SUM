@@ -1,0 +1,54 @@
+1.//java书写helloworld
+
+
+public class test {
+
+
+      public static void main(String[] args){
+    
+                 System.out.println("hello world");
+    
+       }
+
+}
+
+public class test {
+
+
+   public static void main(String[] args){
+
+         System.out,println("hello world");
+    
+      }
+
+}
+
+
+
+2.jdk jre jvm 的联系
+JDK  =  JRE + JAVA 开发工具（Java Javac Javadoc Javap）
+JRE  =  jVM + java的核心类库
+
+
+3.配置环境变量作用
+
+控制台输入java指令后先在所在的文件目录寻找文件 若无 则在path的环境变量的目录中寻找 
+
+所以新增JAVA_HOME环境变量 所指向的目录为jdk的文件目录 然后再在path环境变量目录中添加%JAVA_HOME%\bin
+
+从而找到jdk的bin文件
+
+pash->%JAVA_HOME%->jdk所在目录->jdk\bin 
+
+
+4.java编写步骤
+
+编写java的源代码
+
+javac编译，得到对应的.class字节码文件
+
+java运行，本质就是把.class加载到jvm机中运行
+
+5.学习技术方法
+
+分析需求->思考已有知识是否能解决->引入需要新学习的技术->学习基本语法基本内容不需要在意太多细节->编写基本程序(巩固+成果)->深入细节和规范注意事项和技术反思优化 永无止境(技术高低的决定因素)

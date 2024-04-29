@@ -1,0 +1,48 @@
+//java书写helloworld
+
+
+public class test{
+
+
+      public static void main(String[] args){
+
+                 System.out.println("hello world");
+
+       }
+
+}
+
+public class test {
+
+
+   public static void main(String[] args){
+
+         System.out,println("hello world");
+
+      }
+
+}
+
+JDK  =  JRE + JAVA 开发工具（Java Javac Javadoc Javap）
+JRE  =  jVM + java的核心类库
+
+配置环境变量作用
+
+控制台输入java指令后先在所在的文件目录寻找文件 若无 则在path的环境变量的目录中寻找 
+
+所以新增JAVA_HOME环境变量 所指向的目录为jdk的文件目录 然后再在path环境变量目录中添加%JAVA_HOME%\bin
+
+从而找到jdk的bin文件
+
+pash->%JAVA_HOME%->jdk所在目录->jdk\bin 
+
+
+学习技术的方法
+
+先看需求 联系已有知识 引出学习的新知识点
+
+把基本原理和语法搞清楚不要搞太多细节
+
+快速入门（基本程序，crud）
+
+开始研究技术的注意事项，使用细节，使用规范，如何优化，优化永无止境 
